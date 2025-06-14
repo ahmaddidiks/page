@@ -3,9 +3,9 @@ import PageLayout from '../layouts/BaseLayout.astro'
 import Label from '../components/Label.astro'
 
 import { Image } from 'astro:assets'
-import fotoprofil from '../assets/foto-profil.jpg'
 
 import { getAllPosts, sortMDByDate } from '@/utils'
+import fotoprofil from '../assets/foto-profil.jpeg'
 
 const MAX_POSTS = 10
 const allPosts = await getAllPosts()
@@ -23,12 +23,12 @@ const allPosts = await getAllPosts()
 			/>
 
 			<div class='flex flex-col items-center gap-y-4'>
-				<h1 class='text-3xl font-bold'>Mohammad Wasil</h1>
+				<h1 class='text-3xl font-bold'>Ahmad Didik Setiyadi</h1>
 				<div class='flex flex-wrap justify-center gap-x-7 gap-y-3'>
 					<Label 
-						title='A2S Institute'
+						title='Abarobotics'
 						as='a'
-						href='https://www.h-brs.de/en/ia2s'
+						href='https://www.abarobotics.com'
 						target='_blank'
 					>
 						<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' class='h-5 w-5' slot='icon'
@@ -41,7 +41,7 @@ const allPosts = await getAllPosts()
 					<Label
 						title='Scholar'
 						as='a'
-						href='https://scholar.google.com/citations?user=UcvABJwAAAAJ&hl'
+						href='https://scholar.google.com/citations?view_op=list_works&hl=en&user=6uH7_1EAAAAJ'
 						target='_blank'
 					>
 						<svg
@@ -57,9 +57,9 @@ const allPosts = await getAllPosts()
 						</svg>
 				  	</Label>
 					<Label
-						title='mhwasil'
+						title='ahmaddidiks'
 						as='a'
-						href='https://github.com/mhwasil'
+						href='https://github.com/ahmaddidiks'
 						target='_blank'
 					>
 						<svg
@@ -77,7 +77,7 @@ const allPosts = await getAllPosts()
 					<Label
 						title='Linkedin'
 						as='a'
-						href='https://www.linkedin.com/in/mohammad-wasil/'
+						href='https://www.linkedin.com/in/ahmaddidiks/'
 						target='_blank'
 					>
 						<svg
@@ -97,10 +97,9 @@ const allPosts = await getAllPosts()
 
 		<!-- <Section title='About'> -->
 			<p class='text-muted-foreground'>
-				I am a PhD student at Ruhr University Bochum in cooperation with Hochschule Bonn-Rhein-Sieg, Germany.
-        I am also a research associate at the Institute for AI and Autonomous Systems, Hochschule Bonn-Rhein-Sieg since 2020.
-				I obtained my master's degree in Autonomous Systems from Hochschule Bonn-Rhein-Sieg and 
-        my research interests include continual or lifelong learning for embodied autonomous systems and robotics.
+				I am an Embedded Engineer at Abarobotics.
+				I hold a Bachelor's degree and specialize in robotics, embedded systems, and AIoT.
+				My work focuses on building reliable and intelligent systems for real-world automation and control.
 			</p>
 		<!-- </Section> -->
 		<!-- {

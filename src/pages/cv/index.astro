@@ -7,7 +7,7 @@ import SkillLayout from '../../components/SkillLayout.astro'
 
 import { getAllPosts, sortMDByDate } from '@/utils'
 
-const languages = ['Python', 'C++']
+const languages = ['Golang', 'Python', 'C++']
 const ml = ['PyTorch', 'Tensorflow', 'scikit-learn', 'OpenCV']
 const others = ['Robot Operating Systems (ROS)', 'VIM', 'Bash']
 const devops = ['Kubernetes', 'Docker', 'Helm', 'Ansible', 'CI/CD', 'Hetzner Cloud', 'Google Cloud', 'OpenStack']
@@ -18,30 +18,9 @@ const allPosts = await getAllPosts()
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 ---
 
-<PageLayout meta={{ title: 'Home' }}>
+<PageLayout meta={{ title: 'CV' }}>
 	<div class='flex w-full flex-col gap-y-10'>
-		<Section title='Education'>
-			<EducationCard
-				subject='PhD Student'
-				university='Ruhr University Bochum and Hochschule Bonn-Rhein-Sieg'
-				date='2023 - present'
-				imageClass='h-12 w-auto md:-left-16'
-			>
-				<p>Continual learning for embodied autonomous systems</p>
-				
-			</EducationCard>
-			<EducationCard
-				subject='M.Sc. in Autonomous Systems (Robotics)'
-				university='Hochschule Bonn-Rhein-Sieg'
-				date='Sept 2016 - Aug 2019'
-				imageClass='h-12 w-auto md:-left-16'
-			/>
-			<EducationCard
-				subject='B.Sc. in Computer Science'
-				university='Universitas Trunojoyo Madura'
-				date='Aug 2010 - Aug 2014'
-			/>
-		</Section>
+
 
 		<Section title='Experience'>
 			<ExperienceCard
@@ -128,11 +107,23 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 			</ExperienceCard>
 		</Section>
 
+		<Section title='Education'>
+			<EducationCard
+				subject='B.Eng in Electrical Engineering'
+				university='Diponegoro University'
+				date='Aug 2017 - Dec 2021'
+				imageClass='h-12 w-auto md:-left-16'
+			>
+				<p>Control systems and Robotics</p>
+				
+			</EducationCard>
+		</Section>
+
 		<Section title='Skills'>
 			<SkillLayout title='Languages' skills={languages} />
-			<SkillLayout title='ML' skills={ml} />
-			<SkillLayout title='Robotics' skills={robotics} />
-			<SkillLayout title='DevOps' skills={devops} />
+			<!-- <SkillLayout title='ML' skills={ml} -->
+			<!-- <SkillLayout title='Robotics' skills={robotics} /> -->
+			<!-- <SkillLayout title='DevOps' skills={devops} /> -->
 		</Section>
 	</div>
 </PageLayout>

@@ -5,7 +5,8 @@ export interface Publication {
   venue: string;
   year: number;
   note?: string;
-  paper: string;
+  paper?: string;
+  patent?: string;
   code?: string;
   marked?: boolean;
 }

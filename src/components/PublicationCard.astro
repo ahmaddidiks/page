@@ -1,7 +1,7 @@
 ---
 import PublicationLabel from "./PublicationLabel.astro";
 
-const { pub } = Astro.props;
+const { pub, patent } = Astro.props;
 ---
 
 <div class='relative rounded-2xl border border-border bg-primary-foreground px-5 py-3'>
@@ -12,7 +12,7 @@ const { pub } = Astro.props;
         class='text-muted-foreground'
         set:html={pub.author
           .map((name: string) =>
-            name.includes("Wasil")
+            name.includes("Didik")
               ? '<span class="text-green-600">' + name + "</span>"
               : name,
           )
@@ -40,11 +40,13 @@ const { pub } = Astro.props;
               />
             )
           }
+        </span>
+         <span class='float-right inline-block'>
           {
-            pub.code && (
+            pub.patent && (
               <PublicationLabel
-                title='Github'
-                href={pub.code}
+                title='Patent'
+                href={pub.patent}
                 class='text-blue-600 dark:text-blue-400'
               />
             )

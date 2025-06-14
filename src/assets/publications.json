@@ -1,61 +1,32 @@
 [
   {
     "type": "journal",
-    "title": "Learning-based personalisation of robot behaviour for robot-assisted therapy",
-    "author": ["Michał Stolarz", "Alex Mitrevski", "Mohammad Wasil", "Paul G. Plöger"],
-    "venue": "Frontiers in Robotics and AI",
+    "title": "Performance Analysis of 4-DOF RPRR Robot Manipulator Actuation Strategy for Pick and Place Application in Healthcare Environment",
+    "author": ["Hadha Afrisal", "Ahmad Didik Setiyadi", "Munawar Riyadi", "Rifky Ismail", "Olimjon Toirov", "Iwan Setiawan"],
+    "venue": "International Journal on Advance Science Engineering Information Technology",
     "volume": 11,
     "pages": [1352152],
-    "year": 2024,
-    "paper": "https://www.frontiersin.org/articles/10.3389/frobt.2024.1352152/full"
-  },
-  {
-    "type": "conference",
-    "title": "Check for updates b-it-bots: Winners of RoboCup@ Work 2023",
-    "author": ["Gokul Chenchani", "Kevin Patel", "Ravisankar Selvaraju", "Shubham Shinde", "Vamsi Kalagaturu", "Vivek Mannava", "Deebul Nair", "Iman Awaad", "Mohammad Wasil", "Santosh Thoduka"],
-    "venue": "RoboCup 2023: Robot World Cup XXVI",
-    "year": 2023,
-    "paper": "https://doi.org/10.1007/978-3-031-55015-7_29"
-  },
-  {
-    "type": "preprint",
-    "title": "b-it-bots RoboCup@ Work Team Description Paper 2023",
-    "author": ["Kevin Patel", "Vamsi Kalagaturu", "Vivek Mannava", "Ravisankar Selvaraju", "Shubham Shinde", "Dharmin Bakaraniya", "Deebul Nair", "Mohammad Wasil", "Santosh Thoduka", "Iman Awaad"],
-    "venue": "arXiv preprint arXiv:2312.17643",
-    "year": 2023,
-    "paper": "https://arxiv.org/abs/2312.17643"
-  },
-  {
-    "type": "preprint",
-    "title": "Personalised robot behaviour modelling for robot-assisted therapy in the context of autism spectrum disorder",
-    "author": ["Michał Stolarz", "Alex Mitrevski", "Mohammad Wasil", "Paul G. Plöger"],
-    "venue": "arXiv preprint arXiv:2207.12144",
     "year": 2022,
-    "paper": "https://arxiv.org/abs/2207.12144"
+    "paper": "https://d1wqtxts1xzle7.cloudfront.net/106878117/3556-libre.pdf?1698104220=&response-content-disposition=inline%3B+filename%3DPerformance_Analysis_of_4_DOF_RPRR_Robot.pdf&Expires=1747626988&Signature=H3QDDFGnmB1G84onLz5dCtP~VVop0rCb76jMNTkUuWlrnDjofVq7XDzxOfc~p9cHZQGdKGWbGP4Z-2D-9rBiF0Iv1GHPch3h99ZD3LzN5CnaUOW4Gmgaq9pBuMnAFhC1C5ygj~-hK-WAaYMH2TAFRB9J8ywV6FI1tH~54eh~ghc-uj54ad0FkuqJVHXT63dwSa9XjMyH9xu0B9gMSw4Xo69TPugFUgBn7xPeZg7Jv-BiOHnt~f5X2D95nSCS8fX1AaNDZ8JnjBNaX648o71eP-f8bwY8WZJ7tbl~hc4gxESaCLxbjyKpl7pjM7QPZnjsUFsN4hiU8OfZsOqSdOWn7A__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
   },
   {
-    "type": "preprint",
-    "title": "Personalized behaviour models: a survey focusing on autism therapy applications",
-    "author": ["Michał Stolarz", "Alex Mitrevski", "Mohammad Wasil", "Paul G. Plöger"],
-    "venue": "arXiv preprint arXiv:2205.08975",
-    "year": 2022,
-    "paper": "https://arxiv.org/abs/2205.08975"
-  },
-  {
-    "type": "workshop",
-    "title": "Personalised Behaviour Model for Autism Therapy",
-    "author": ["Michał Stolarz", "Alex Mitrevski", "Mohammad Wasil", "Paul G. Plöger"],
-    "venue": "Workshop on Social AI for Human-Robot Interaction of Human-Care Robots, Fully Virtual in association with ICSR2021, Nov. 12th, 2021",
+    "type": "journal",
+    "title": "Perancangan dan Pengendalian Manipulator Robot 4-DOF dengan Gripper Berbasis Inverse Kinematics dan Trajectory Planning dengan ROS",
+    "author": ["Ahmad Didik Setiyadi", "Hadha Afrisal", "Iwan Setiawan"],
+    "venue": "Transient Jurnal Teknik Elektro",
+    "volume": 11,
+    "pages": [1352152],
     "year": 2021,
-    "paper": "https://socialrobot-kros.github.io/assets/resources/ICSR2021_Workshop_SHRI_Micha%C5%82Stolarz.pdf"
+    "paper": "https://d1wqtxts1xzle7.cloudfront.net/101121768/pdf-libre.pdf?1681611662=&response-content-disposition=inline%3B+filename%3DPerancangan_Dan_Pengendalian_Manipulator.pdf&Expires=1747673260&Signature=JewjKEai9AGG3cbAmpguzCZkjfAebs1W8vHI42iaH-JF2TTdioXVdlqxkCUNmdbzNvxBZ7Heaw72t9SpOFM2pDqmtYHurqRpFDgZ0uR37uOZXWS2M~VqNaAtr2y3hZBZ-bqgQeIFs30-nDl6AJreGCYr8Pq2i0riuwFscs1iJMHPxIdhEQPB5nwppcs9jZ8y7XsqanSGOoO5l7HgwdC0luuwzeMvqLqjYRObc7gtw0e2Kd0K26UpHjGNquI1DkVhLa~kOq7csJX8Z4GrMgL0oBkYe-0lBGgIRmQ8o3hdTybns1u~D-MJIepCAzDpWyqHkYy2B3jv7zSyce2z-NxmGw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
   },
   {
-    "type": "conference",
-    "title": "b-it-bots: our approach for autonomous robotics in industrial environments",
-    "author": ["Abhishek Padalkar", "Mohammad Wasil", "Shweta Mahajan", "Ramesh Kumar", "Dharmin Bakaraniya", "Raghuvir Shirodkar", "Heruka Andradi", "Deepan Padmanabhan", "Carlo Wiesse", "Ahmed Abdelrahman"],
-    "venue": "RoboCup 2019: Robot World Cup XXIII 23",
-    "pages": [591, 602],
-    "year": 2019,
-    "paper": "https://link.springer.com/chapter/10.1007/978-3-030-33766-4_47"
+    "type": "journal",
+    "title": "Mobile Robotic-Arm Development for A Small-Scale Inter-Room Logistic Delivery using 2D LIDAR-guided Navigation",
+    "author": ["Hadha Afrisal", "Ghanis Kauchya Nugraha", "Aan Aria Nanda", "Ahmad Didik Setiyadi", "Olimjon Toirov", "Rifky Ismail", "Wahyul Amien Syafei", "Munawar Agus Riyadi", "Iwan Setiawan"],
+    "venue": "Jurnal Ilmiah Bidang Kerekayasaan",
+    "volume": 11,
+    "pages": [1352152],
+    "year": 2022,
+    "paper": "https://ejournal.undip.ac.id/index.php/teknik/article/view/45642"
   }
 ]
