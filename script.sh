@@ -1,0 +1,1 @@
+nohup serve dist -l 4321 > dist/out.log 2>&1 &

@@ -15,7 +15,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://mhwasil.lembaran.my.id',
+  site: "https://www.didik.tech",
   prefetch: true,
 
   redirects: {
@@ -32,6 +32,14 @@ export default defineConfig({
     icon(),
   ],
 
+  vite: {
+    server: {
+      host: "0.0.0.0", // listen on all interfaces
+      port: 8000,       // custom port
+      allowedHosts: ["www.didik.tech", "didik.tech"], // allow remote access
+    },
+  },
+
   markdown: {
     remarkPlugins: [
       [remarkSmartypants, { dashes: "oldschool" }],
@@ -45,10 +53,9 @@ export default defineConfig({
         rehypeExternalLinks,
         {
           target: "_blank",
-          rel: ["nofollow, noopener, noreferrer"],
+          rel: ["nofollow", "noopener", "noreferrer"],
         },
       ],
-
       [
         rehypeMathjax,
         {
@@ -57,7 +64,6 @@ export default defineConfig({
               "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2",
             scale: 1.1,
           },
-
           tex: {
             macros: mathJaxMacros,
           },
