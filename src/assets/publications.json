@@ -1,0 +1,32 @@
+[
+  {
+    "type": "journal",
+    "title": "Performance Analysis of 4-DOF RPRR Robot Manipulator Actuation Strategy for Pick and Place Application in Healthcare Environment",
+    "author": ["Hadha Afrisal", "Ahmad Didik Setiyadi", "Munawar Riyadi", "Rifky Ismail", "Olimjon Toirov", "Iwan Setiawan"],
+    "venue": "International Journal on Advance Science Engineering Information Technology",
+    "volume": 11,
+    "pages": [1352152],
+    "year": 2022,
+    "paper": "https://d1wqtxts1xzle7.cloudfront.net/106878117/3556-libre.pdf?1698104220=&response-content-disposition=inline%3B+filename%3DPerformance_Analysis_of_4_DOF_RPRR_Robot.pdf&Expires=1747626988&Signature=H3QDDFGnmB1G84onLz5dCtP~VVop0rCb76jMNTkUuWlrnDjofVq7XDzxOfc~p9cHZQGdKGWbGP4Z-2D-9rBiF0Iv1GHPch3h99ZD3LzN5CnaUOW4Gmgaq9pBuMnAFhC1C5ygj~-hK-WAaYMH2TAFRB9J8ywV6FI1tH~54eh~ghc-uj54ad0FkuqJVHXT63dwSa9XjMyH9xu0B9gMSw4Xo69TPugFUgBn7xPeZg7Jv-BiOHnt~f5X2D95nSCS8fX1AaNDZ8JnjBNaX648o71eP-f8bwY8WZJ7tbl~hc4gxESaCLxbjyKpl7pjM7QPZnjsUFsN4hiU8OfZsOqSdOWn7A__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+  },
+  {
+    "type": "journal",
+    "title": "Perancangan dan Pengendalian Manipulator Robot 4-DOF dengan Gripper Berbasis Inverse Kinematics dan Trajectory Planning dengan ROS",
+    "author": ["Ahmad Didik Setiyadi", "Hadha Afrisal", "Iwan Setiawan"],
+    "venue": "Transient Jurnal Teknik Elektro",
+    "volume": 11,
+    "pages": [1352152],
+    "year": 2021,
+    "paper": "https://d1wqtxts1xzle7.cloudfront.net/101121768/pdf-libre.pdf?1681611662=&response-content-disposition=inline%3B+filename%3DPerancangan_Dan_Pengendalian_Manipulator.pdf&Expires=1747673260&Signature=JewjKEai9AGG3cbAmpguzCZkjfAebs1W8vHI42iaH-JF2TTdioXVdlqxkCUNmdbzNvxBZ7Heaw72t9SpOFM2pDqmtYHurqRpFDgZ0uR37uOZXWS2M~VqNaAtr2y3hZBZ-bqgQeIFs30-nDl6AJreGCYr8Pq2i0riuwFscs1iJMHPxIdhEQPB5nwppcs9jZ8y7XsqanSGOoO5l7HgwdC0luuwzeMvqLqjYRObc7gtw0e2Kd0K26UpHjGNquI1DkVhLa~kOq7csJX8Z4GrMgL0oBkYe-0lBGgIRmQ8o3hdTybns1u~D-MJIepCAzDpWyqHkYy2B3jv7zSyce2z-NxmGw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+  },
+  {
+    "type": "journal",
+    "title": "Mobile Robotic-Arm Development for A Small-Scale Inter-Room Logistic Delivery using 2D LIDAR-guided Navigation",
+    "author": ["Hadha Afrisal", "Ghanis Kauchya Nugraha", "Aan Aria Nanda", "Ahmad Didik Setiyadi", "Olimjon Toirov", "Rifky Ismail", "Wahyul Amien Syafei", "Munawar Agus Riyadi", "Iwan Setiawan"],
+    "venue": "Jurnal Ilmiah Bidang Kerekayasaan",
+    "volume": 11,
+    "pages": [1352152],
+    "year": 2022,
+    "paper": "https://ejournal.undip.ac.id/index.php/teknik/article/view/45642"
+  }
+]
